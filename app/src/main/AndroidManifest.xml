@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deliveryhouse">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature android:name="android.hardware.wifi" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/circlelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/circlelogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyMeats"></activity>
+        <activity android:name=".Meats" />
+        <activity android:name=".MyCartPopular" />
+        <activity android:name=".MyFruits" />
+        <activity android:name=".Fruits" />
+        <activity android:name=".PayPalPayment" />
+        <activity android:name=".LocationSMS" />
+        <activity android:name=".MyCart" />
+        <activity android:name=".MyMeals" />
+        <activity android:name=".MyOrders" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".FastFood" />
+        <activity android:name=".Restaurants" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

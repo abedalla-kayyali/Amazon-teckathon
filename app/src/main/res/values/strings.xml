@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Delivery House</string>
+    <string name="slogan">At Delivery House we put customers first. Accordingly, we will be ready to work in parallel to the high growth of the Jordanian Market in all aspects; we will always enlarge our services and add more characteristics which should continuously meet your requests and demands. We are always willing to develop the trust and confidence of our clients</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_restaurant">Meats</string>
+    <string name="menu_popular">Meals</string>
+    <string name="menu_fruits">Fruit and Vegetable</string>
+    <string name="menu_meats">Groceries</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_LocationSMS">SEND Location</string>
+    <string name="menu_logout">LogOut</string>
+
+    <string-array name="Types">
+        <item>Chicken types</item>
+        <item>Meat</item>
+        <item>Thigh</item>
+        <item>Chicken Ribs</item>
+        <item>Hurry Meat</item>
+        <item>Minced Meat</item>
+        <item>Sheep Meat</item>
+        <item>Wings</item>
+    </string-array>
+
+    <string-array name="ELITES">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/homeimg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/mylogo" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtSlogan"
+            android:textColor="@android:color/background_dark"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/slogan" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MyOrders">
+
+    <TextView
+        android:text="My Session :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fruitsmysession"/>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/imgefruit"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:text="Price :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:id="@+id/tvtfruitsprice"/>
+
+        <TextView
+            android:text="Know More"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:id="@+id/tvtfruitsname"/>
+
+
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtfruitsquantity"/>
+
+        <TextView
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtfruitspluse"/>
+
+        <TextView
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtfruitsminus"/>
+
+    </RelativeLayout>
+    <Button
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnfruitsbuy"
+        android:background="#DC143C"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Now" />
+</LinearLayout>
